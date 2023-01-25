@@ -1,0 +1,90 @@
+.video-item {
+  width: 100%;
+  height: auto;
+  margin: 0 auto 70px;
+  position: relative;
+  z-index: 0;
+}
+
+.video-item img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.video-item .play {
+  width: 70px;
+  height: 70px;
+  border-radius: 70px;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 30%;
+  background: #fe5170;
+  background: -webkit-gradient(left top, right top, color-stop(0%, #fe5170), color-stop(100%, #fda286));
+  background: -webkit-gradient(linear, left top, right top, from(#fe5170), to(#fda286));
+  background: linear-gradient(to right, #fe5170 0%, #fda286 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe5170', endColorstr='#fda286', GradientType=1 );
+  padding: 20px;
+}
+
+.video-item .play a svg {
+  width: 30px;
+  height: 30px;
+  fill: #fff;
+}
+
+.video-item .play:hover {
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(254, 81, 113, 0.5);
+  box-shadow: 0px 5px 20px 0px rgba(254, 81, 113, 0.5);
+  -webkit-transition: all ease 500ms;
+  transition: all ease 500ms;
+}
+
+.video-item .caption {
+  width: 95%;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -50px;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.video-item .caption .date {
+  margin-bottom: 20px;
+}
+
+.video-item .caption .date span {
+  color: var(--color_3);
+}
+
+.video-item .caption .date span svg {
+  fill: var(--color_2);
+}
+
+.video-item .caption .video-title h4 {
+  font-size: 22px;
+}
+
+.video-item .caption .video-title h4 a {
+  text-decoration: none;
+  color: var(--color_1);
+  font-weight: bold;
+  -webkit-transition: all ease 500ms;
+  transition: all ease 500ms;
+}
+
+.video-item .caption .video-title h4 a:hover {
+  color: var(--color_2);
+  -webkit-transition: all ease 500ms;
+  transition: all ease 500ms;
+}
+/*# sourceMappingURL=video-item.css.map */
